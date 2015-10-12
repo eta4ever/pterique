@@ -1,6 +1,6 @@
 $fa=5; $fs=0.1;
 
-length=100;
+length=30;
 
 difference(){
     
