@@ -19,7 +19,7 @@ difference(){
     union(){
         
         rotate([0,-(90-11.3),0]){
-            translate([13.01, -0.01, 4]) cube([12.01,length+0.02,5]); //под лист ПВХ
+            translate([13.01, -0.01, 4]) cube([12.01,length+0.02,pvc_thick]); //под лист ПВХ
             translate([28,length+0.01,47]) rotate([90,0,0]) cylinder(h=length+0.02, r=35); //скос
             translate([-10,-10,37]) cube ([61,length+11,10]); // срезать все сверху
         }
