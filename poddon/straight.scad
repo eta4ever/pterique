@@ -24,7 +24,7 @@ difference(){
             translate([-10,-10,37]) cube ([61,length+11,10]); // срезать все сверху
         }
         
-        translate([-10, length-2, 0]) cube([5,2.01,10]); // вырез под стык
+        translate([-10, length-2, -0.01]) cube([5,2.01,10.01]); // вырез под стык
     }
 }
 
