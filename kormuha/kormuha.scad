@@ -16,8 +16,8 @@ difference(){
 			translate([0,60,20]) sphere(r=R, center=true);
 		}
 
-		translate([-1, 10, 17]) cylinder(r1=3, r2=5, h=8, center=true); // под крючки
-		translate([-1, 50, 17]) cylinder(r1=3, r2=5, h=8, center=true);
+		translate([-1, 10, 17]) cylinder(r1=5, r2=5, h=8, center=true); // под крючки
+		translate([-1, 50, 17]) cylinder(r1=5, r2=5, h=8, center=true);
 	}
 
 	union(){
