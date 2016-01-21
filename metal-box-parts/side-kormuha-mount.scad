@@ -14,7 +14,7 @@ difference(){
 	union(){
 		translate([-75, 1, 0]) rotate([90,0,0]) cylinder(h=16, r=5, center=true); // под бобышки крепления
 		translate([75, 1, 0]) rotate([90,0,0]) cylinder(h=16, r=5, center=true);
-		translate([-75, 1, 0]) rotate([90,0,0]) cylinder(h=16, r=5, center=true); // под винты
-		translate([75, 1, 0]) rotate([90,0,0]) cylinder(h=16, r=5, center=true);
+		translate([-75, 6, 0]) rotate([90,0,0]) cylinder(h=16, r=2.3, center=true); // под винты
+		translate([75, 6, 0]) rotate([90,0,0]) cylinder(h=16, r=2.3, center=true);
 	}
 }
